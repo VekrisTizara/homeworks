@@ -1,11 +1,13 @@
+from exceptions import *
 from abc import ABC
 
 
 class Vehicle(ABC):
-    def __init__(self, weight = 100, started = False, fuel = 500, fuel_consumption = 20):
+    started = False
+
+    def __init__(self, weight=100, fuel=500, fuel_consumption=20):
         self.weight = weight
         self.fuel = fuel
-        self.started = started  #можно ли не инициализировать?
         self.fuel_consumption = fuel_consumption
 
     def start(self):
