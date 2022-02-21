@@ -2,7 +2,7 @@
 create dataclass `Engine`
 """
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 @dataclass
 class Engine:
