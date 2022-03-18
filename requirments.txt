@@ -1,0 +1,53 @@
+anyio==3.5.0
+asgiref==3.5.0
+atomicwrites @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/b7/99/9c/c8ddc18c8225c740fc2ae6d503da3f93d5dddaf04afac3da460afacbc6/atomicwrites-1.4.0-py2.py3-none-any.whl
+attrs @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/5b/25/94/5d165cd3190cb7dfdc98de86c28e8131fc6e19d83a504412664abffec0/attrs-21.4.0-py2.py3-none-any.whl
+CacheControl==0.12.10
+cachy==0.3.0
+certifi==2021.10.8
+charset-normalizer==2.0.12
+cleo==0.8.1
+click==8.0.4
+clikit==0.6.2
+colorama==0.4.4
+crashtest==0.3.1
+distlib==0.3.4
+fastapi==0.75.0
+filelock==3.6.0
+h11==0.13.0
+html5lib==1.1
+idna==3.3
+importlib-metadata==4.11.3
+keyring==23.5.0
+lockfile==0.12.2
+more-itertools @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/a6/67/cb/fbf4fb4bbfedae39080e351b12ca64287d47c839769eeaf91434f3274c/more_itertools-8.12.0-py3-none-any.whl
+msgpack==1.0.3
+packaging @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/47/3f/ce/b240169f7d8bef1ff24a0269b709721ce86543c2ec25e0b6adb2c2d7ac/packaging-21.3-py3-none-any.whl
+pastel==0.2.1
+pexpect==4.8.0
+pkginfo==1.8.2
+platformdirs==2.5.1
+pluggy @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/29/58/fc/ed8b7451d3ef91a6465024f5656141da996e7aafd4d41a1659629a75e7/pluggy-0.13.1-py2.py3-none-any.whl
+poetry==1.1.13
+poetry-core==1.0.8
+ptyprocess==0.7.0
+py @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/b3/5c/47/ba5a596e01a2b61fa2daa6a438252483ad8c04e6c99e5dc22eaf8a489a/py-1.11.0-py2.py3-none-any.whl
+pydantic==1.9.0
+pylev==1.4.0
+pyparsing==3.0.7
+pytest @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/e4/88/dd/3dbff42e3c4462dc3d027f5024025571166cb35edee215ce93852a968c/pytest-5.4.3-py3-none-any.whl
+pywin32-ctypes==0.2.0
+requests==2.27.1
+requests-toolbelt==0.9.1
+shellingham==1.4.0
+six==1.16.0
+sniffio==1.2.0
+starlette==0.17.1
+tomlkit==0.10.0
+typing-extensions==4.1.1
+urllib3==1.26.9
+uvicorn==0.17.6
+virtualenv==20.13.3
+wcwidth @ file:///C:/Users/Umlaut/AppData/Local/pypoetry/Cache/artifacts/7d/f4/60/0737157bb9711fec72c70dff523aa54491eef317e0d586cf5388ff0908/wcwidth-0.2.5-py2.py3-none-any.whl
+webencodings==0.5.1
+zipp==3.7.0
