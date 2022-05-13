@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% from 'macros/back_to_plants_list.html' import back_to_plants_list %}
+
+{% block title %}
+    Add plant
+{% endblock %}
+
+{% block body %}
+    <form method="post" id="plant_form">
+
+    {{ form.hidden_tag() }}
+
+        <label for="input-plant-name-id">
+            Plant name:
+        </label>
+        <input
+                type="text"
+                id="input-plant-name-id"
+                name="plant_name"
+                required
+        >
+        <label for="input-plant-name-id">
+            Plant type:
+        </label>
+
+        <select class="form-select" aria-label="Plant type" name="plant_type" form="plant_form">
+            <option selected>Choose the type</option>
+            <option value="seaweed">Водосли</option>
+            <option value="moss">Мхи</option>
+            <option value="fern">Папоротники</option>
+            <option value="blooming">Цветковые</option>
+            <option value="coniferous">Хвойные</option>
+        </select>
+
+        <input type="submit" value="Add plant">
+    </form>
+
+    {{ back_to_plants_list() }}
+
+{% endblock %}

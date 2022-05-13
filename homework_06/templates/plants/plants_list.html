@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Plants list
+{% endblock %}
+
+{% block body %}
+    <h1>Plants:</h1>
+    {% if plants %}
+        <ul>
+            {% for (id, plant) in plants %}
+                <li>{{ plant.name }} ({{ plant.type }})</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <h3> No plants yet.</h3>
+    {% endif %}
+
+    <div>
+        <a href="{{ url_for('add_plant') }}">Add product</a>
+    </div>
+
+{% endblock %}

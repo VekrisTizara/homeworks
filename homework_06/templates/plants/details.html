@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% from 'macros/back_to_products_list.html' import back_to_plants_list %}
+
+{% block title %}
+
+Plant #{{ plant_id }}
+{% endblock %}
+
+{% block body %}
+    <h3> Plant #{{ id }} details </h3>
+    <div>Plant name: <strong>{{ plant_name }}</strong></div>
+    {{ back_to_plants_list() }}
+{% endblock %}
