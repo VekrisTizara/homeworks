@@ -13,4 +13,4 @@ class Command(BaseCommand):
                 painting=painting,
                 details='will be soon filled'
             )
-            print(f'for {animal} detail created')
+            print(f'for {painting} detail created')
