@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paintings shop</title>
+</head>
+<body>
+<h1>Hello!</h1>
+<ul>
+    {% for element in all_paintings %}
+        <li>{{ element }}</li>
+    {% endfor %}
+</ul>
+    <a href="{% url 'painting_list' %}">Go to list</a>
+</body>
+</html>

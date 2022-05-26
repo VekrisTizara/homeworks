@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paintings shop</title>
+</head>
+<body>
+    {% if is_paginated %}
+        {% if page_obj.has_previous %}
+            <a href="{% url '' %}?page={{ page_obj.previous_page_number }}"><</a>
+        {% endif %}
+
+        <span class="page-current">
+            страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}
+
+        </span>
+        {% if page_obj.has_next %}
+            <a href="{% url '' %}?page={{ page_obj.next_page_number }}">></a>
+        {% endif %}
+    {% endif %}
+<ul>
+    {% for element in object_list %}
+        <a href="{% url 'painting_detail' element.id %}">
+            <li>{{ element }}</li>
+        </a>
+    {% endfor %}
+</ul>
+</body>
+</html>

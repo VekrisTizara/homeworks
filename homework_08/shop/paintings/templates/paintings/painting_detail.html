@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title|default:"Painting" }}</title>
+</head>
+<body>
+
+{% block menu %}
+    <ul>
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="{% url 'painting_list' %}">List</a></li>
+    </ul>
+{% endblock %}
+
+<h1>{{ object.name }}</h1>
+
+{% block main_content %}
+{#    <a href="{% url 'painting_update' object.pk %}">update</a>#}
+
+    <p><b>Style:</b> {{ object.style }}</p>
+    <p><b>Canvas type:</b> {{ object.canvas_type }}</p>
+    <p><b>Diagonal:</b> {{ object.diagonal }}</p>
+    <p><b>Height:</b> {{ object.height }}</p>
+    <p><b>Width:</b> {{ object.width }}</p>
+    <br>
+    <p>{{ object.description }}</p>
+
+
+
+{% endblock %}
+
+</body>
+</html>
